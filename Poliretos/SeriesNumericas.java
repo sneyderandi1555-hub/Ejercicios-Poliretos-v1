@@ -80,14 +80,43 @@ public void mostrarSeriesS6(int nroTerminos) {
     }
     }
 
+public void mostrarSeriesS7(int nroTerminos) {
+    for (int i = 1; i <= nroTerminos; i += 3) {
+        System.out.print(i + " ");
+    }
+    }
 
+public void mostrarSeriesS8(int nroTerminos) {
+    for (int i = 3; i <= nroTerminos; i += 5) {
+        System.out.print(i + " ");
+    }
+}
 
+public void mostrarSeriesS9(int nroTerminos) {
 
+    int num = 2;
 
+    for (int i = 1; i <= nroTerminos; i++) {
+        System.out.print(num + " ");
+        num *= 2;
+    }
+}
 
+public void mostrarSeriesS10(int nroTerminos) {
+    int num = 3;
 
+    for (int i = 1; i <= nroTerminos; i++) {
+        System.out.print(num + " ");
+        num *= 3;
+    }
+    }
 
+public void mostrarSeriesS11(int nroTerminos) {
+    for (int i = 1; i <= nroTerminos; i++) {
+        System.out.print(i * (i + 1) + " ");
+    }
 
+}
 
 
 
