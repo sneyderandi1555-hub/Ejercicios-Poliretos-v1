@@ -11,7 +11,15 @@ System.out.println();
 System.out.println();
     SeriesNumericas series3 = new SeriesNumericas();
     series3.mostrarSerieS3(9);
-
+System.out.println();
+    SeriesNumericas series4 = new SeriesNumericas();
+    series4.mostrarSeriesS4(9);     
+System.out.println();
+    SeriesNumericas series5 = new SeriesNumericas();
+    series5.mostrarSeriesS5(9);     
+System.out.println();
+    SeriesNumericas series6 = new SeriesNumericas();
+    series6.mostrarSeriesS6(9);
 
 
 
