@@ -160,11 +160,33 @@ figura19.mostrarFiguraF19(6);
 System.out.println();
 
 
-
-
-
-
-
+System.out.println("Cadenas de Caracteres:");
+Cadenas_de_Caracteres cadena1 = new Cadenas_de_Caracteres();
+cadena1.mostrarfrase("HOLA QUE HACE");
+System.err.println();
+Cadenas_de_Caracteres cadena2 = new Cadenas_de_Caracteres();
+cadena2.mostrarfrase2("HOLA");
+System.err.println();
+Cadenas_de_Caracteres cadena3 = new Cadenas_de_Caracteres();
+cadena3.mostrarfrase3("HOLA", 'A');
+System.out.println( );
+Cadenas_de_Caracteres cadena4 = new Cadenas_de_Caracteres();
+cadena4.mostrarfrase4("HOLA", 'L');
+System.out.println();
+Cadenas_de_Caracteres cadena5 = new Cadenas_de_Caracteres();
+cadena5.mostrarfrase5("Ballena");
+System.out.println();
+Cadenas_de_Caracteres cadena6 = new Cadenas_de_Caracteres();
+cadena6.mostrarfrase6("Ballena");
+System.out.println();
+Cadenas_de_Caracteres cadena7 = new Cadenas_de_Caracteres();    
+cadena7.mostrarfrase7("Ballena");
+System.out.println();
+Cadenas_de_Caracteres cadena8 = new Cadenas_de_Caracteres();
+cadena8.mostrarfrase8("Ballena");
+System.out.println();
+Cadenas_de_Caracteres cadena9 = new Cadenas_de_Caracteres();
+cadena9.mostrarfrase9("Ballena");
 
 
 
