@@ -120,11 +120,7 @@ public void mostrarfrase8(String frase) {
     Random r = new Random();
 
     String[] conjunto = {
-        "delira", "lidera",
-        "ballena", "llenaba",
-        "alondra", "ladrona",
-        "españa", "apañes",
-        "enrique", "quieren"
+        "delira"
     };
 
     int pos = r.nextInt(conjunto.length);
