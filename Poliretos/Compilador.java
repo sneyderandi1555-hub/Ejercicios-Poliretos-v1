@@ -1,5 +1,6 @@
 package Poliretos;
 
+
 public class Compilador {
 public void showSeries(){
 
@@ -187,6 +188,8 @@ cadena8.mostrarfrase8("delira");
 System.out.println();
 Cadenas_de_Caracteres cadena9 = new Cadenas_de_Caracteres();
 cadena9.mostrarfrase9("Ballena");
+
+System.out.println("Problemas con Arrays:");
 
 
 

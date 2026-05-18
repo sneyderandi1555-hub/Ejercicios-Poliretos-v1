@@ -149,6 +149,8 @@ public void mostrarfrase8(String frase) {
             }
         }
     }
+sc.close();
+
 }
 
 public void mostrarfrase9(String frase) {
