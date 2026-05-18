@@ -270,35 +270,39 @@ public void mostrarFiguraF15(int tamaño) {
     }
 }
 
-public void mostrarFiguraF16(int n) {
-
-    for (int i = 1; i <= n; i++) {
-
-        if (i % 2 == 1) {
-            System.out.println("+ +");
-        } else {
-            System.out.println("- -");
+public void mostrarFiguraF16(int tamaño) {
+for (int i = 0; i < tamaño; i++) {
+        char simbolo = (i % 2 == 0) ? '+' : '-';
+        for (int j = 0; j < tamaño; j++) {
+            if (j == i || j == (tamaño - 1 - i)) {
+                System.out.print(simbolo);
+            } else {
+                System.out.print(" ");
+            }
         }
+        System.out.println();
     }
 }
 
-public void mostrarFiguraF17(int n) {
-
-    for (int i = 1; i <= n; i++) {
-
-        if (i % 2 == 1) {
-            System.out.println("1 1");
-        } else {
-            System.out.println("0 0");
+public void mostrarFiguraF17(int tamaño) {
+for (int i = 0; i < tamaño; i++) {
+        char simbolo = (i % 2 == 0) ? '1' : '0';
+        for (int j = 0; j < tamaño; j++) {
+            if (j == i || j == (tamaño - 1 - i)) {
+                System.out.print(simbolo);
+            } else {
+                System.out.print(" ");
+            }
         }
+        System.out.println();
     }
 }
 
-public void mostrarFiguraF18(int n) {
+public void mostrarFiguraF18(int tamaño) {
 
     System.out.println("2");
 
-    for (int i = 2; i <= n; i++) {
+    for (int i = 2; i <= tamaño; i++) {
 
         System.out.print("1 ");
 
@@ -315,11 +319,11 @@ public void mostrarFiguraF18(int n) {
     }
 }
 
-public void mostrarFiguraF19(int n) {
+public void mostrarFiguraF19(int tamaño) {
 
     System.out.println("*");
 
-    for (int i = 2; i <= n; i++) {
+    for (int i = 2; i <= tamaño; i++) {
 
         System.out.print("+ ");
 
