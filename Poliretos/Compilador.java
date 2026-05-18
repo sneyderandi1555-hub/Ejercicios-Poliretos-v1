@@ -35,13 +35,13 @@ System.out.println();
 System.out.println();
     SeriesNumericas series11 = new SeriesNumericas();
     series11.mostrarSeriesS11(9);
-    
+
 System.out.println();
-System.out.println("Series Caracter");
+System.out.println("Series Caracter:");
 
 SerieCaracter serieCaracter = new SerieCaracter();
 serieCaracter.mostrarSericaracterS1(9);
-System.out.println();
+
 
 SerieCaracter serieCaracter2 = new SerieCaracter();
 serieCaracter2.mostrarSeriecaracterS2(9);
@@ -80,9 +80,84 @@ serieCaracter10.mostrarSeriecaracterS10(7);
 System.out.println();
 
 
+System.out.println();
+System.out.println("Figuras Donde se pide le tamaño:");
 
+Figuras figura1 = new Figuras();
+figura1.mostrarFiguraF1(5);
+System.out.println();
 
+Figuras figura2 = new Figuras();
+figura2.mostrarFiguraF2(5);
+System.out.println();
 
+Figuras figura3 = new Figuras();
+figura3.mostrarFiguraF3(5);
+System.out.println();
+
+Figuras figura4 = new Figuras();
+figura4.mostrarFiguraF4(5);
+System.out.println();
+
+Figuras figura5 = new Figuras();
+figura5.mostrarFiguraF5(9);
+System.out.println();
+
+Figuras figura6 = new Figuras();
+figura6.mostrarFiguraF6(9);
+System.out.println();
+
+Figuras figura7 = new Figuras();
+figura7.mostrarFiguraF7(5);
+System.out.println();
+
+Figuras figura8 = new Figuras();
+figura8.mostrarFiguraF8(5);
+System.out.println();
+
+Figuras figura9 = new Figuras();
+figura9.mostrarFiguraF9(5);
+System.out.println();
+
+Figuras figura10 = new Figuras();
+figura10.mostrarFiguraF10(5);
+System.out.println();
+
+Figuras figura11 = new Figuras();
+figura11.mostrarFiguraF11(5);
+System.out.println();
+
+Figuras figura12 = new Figuras();
+figura12.mostrarFiguraF12(9);
+System.out.println();
+
+Figuras figura13 = new Figuras();
+figura13.mostrarFiguraF13(9);
+System.out.println();
+
+Figuras figura14 = new Figuras();
+figura14.mostrarFiguraF14(6);
+System.out.println();
+
+Figuras figura15 = new Figuras();
+figura15.mostrarFiguraF15(6);
+System.out.println();
+
+Figuras figura16 = new Figuras();
+figura16.mostrarFiguraF16(6);
+System.out.println();
+
+Figuras figura17 = new Figuras();
+figura17.mostrarFiguraF17(5);
+System.out.println();
+
+Figuras figura18 = new Figuras();
+figura18.mostrarFiguraF18(6);
+System.out.println();
+
+Figuras figura19 = new Figuras();
+figura19.mostrarFiguraF19(6);
+System.out.println();
 
 
 
